@@ -1,4 +1,7 @@
 package com.sofka.trabajadores.repository;
 
-public interface TrabajadorRepository {
+import com.sofka.trabajadores.model.Trabajador;
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+
+public interface TrabajadorRepository extends ReactiveMongoRepository<Trabajador, String> {
 }
