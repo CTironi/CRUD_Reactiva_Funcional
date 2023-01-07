@@ -18,11 +18,12 @@ donde usamos el modelo de un trabajador, con los atributos :
 
 Sobre los cuales podemos trabajar con los metodos de :
 
-* guardar : /trabajador
-* borrar  : /borrar/{id}
-* borrar Todos : /borrartodos
-* actualizar : /actualizar/{id}
-* listar Todos : /trabajadores
-* listar por Id : /listarid/{id}
-* ver trabajadores activos : /activos
+* Post - guardar : /trabajador
+* Delete - borrar  : /borrar/{id}
+* Delete - borrar Todos : /borrartodos
+* Put - actualizar : /actualizar/{id}
+* Get - listar Todos : /trabajadores
+* Get - listar por Id : /listarid/{id}
+* Get - ver trabajadores activos : /activos
 
+URL del despliegue : https://crudreactivafuncional-production.up.railway.app/trabajadores
