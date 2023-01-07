@@ -11,7 +11,7 @@
 	<groupId>com.sofka</groupId>
 	<artifactId>trabajadores</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>CRUD reactiva y funcional</name>
 	<description>CRUD con Spring Boot y MongoDB</description>
 	<properties>
